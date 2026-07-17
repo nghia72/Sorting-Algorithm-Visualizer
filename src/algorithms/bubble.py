@@ -8,9 +8,8 @@ def bubble_sort(arr):
                 yield arr, j, j + 1, "swap"
     yield arr, -1, -1, "done"
 
-
-if __name__ == "__main__":
-    numbers = [5, 1, 4, 2, 8]
-    list(bubble_sort(numbers))
-    print("Sorted array:", numbers)
-
+# test
+#if __name__ == "__main__":
+    #numbers = [5, 1, 4, 2, 8]
+    #list(bubble_sort(numbers))
+    #print("Sorted array:", numbers)
